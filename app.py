@@ -10,10 +10,6 @@ import smtplib
 import json
 from email.message import EmailMessage
 
-from dotenv import load_dotenv
-
-
-load_dotenv()  
 
 
 client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
