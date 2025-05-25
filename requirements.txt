@@ -3,7 +3,4 @@ openai
 sqlalchemy
 pandas
 datetime
-json
 smtplib
-EmailMessage
-python-dotenv
